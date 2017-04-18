@@ -1,0 +1,62 @@
+Q8
+
+-------------------------------------js---------------------------------------
+var a=[1,2,3,4,5];
+var b=[11,12,13,14,15];
+var c=[21,22,23,24,25];
+var mer=[]; 
+var two=[];		
+var three=[];	
+var five=[];
+
+
+mer=a.concat(b,c); 
+
+for (i=0;i<mer.length;i++){
+
+	if(mer[i]%2===0){
+		two[i]=mer[i];
+	}
+
+	if(mer[i]%3===0){
+		three[i]=mer[i];
+	}
+
+	if(mer[i]%5===0){
+		five[i]=mer[i];
+	}
+}
+
+console.log("# divisible by 2 ="+two);
+console.log("# divisible by 3 ="+three);
+console.log("# divisible by 5 ="+five);
+
+-------------------------------------ruby---------------------------------------
+
+a=[1,2,3,4,5];
+ b=[11,12,13,14,15];
+ c=[21,22,23,24,25];
+mer=[]
+two=[]		
+three=[]	
+five=[]		
+mer=a+b+c   
+
+(0..(mer.length-1)).step(1) do |i|
+
+	if(mer[i]%2===0)
+		two[i]=mer[i]
+	end
+
+	if(mer[i]%3===0)
+		three[i]=mer[i]
+	end
+
+	if(mer[i]%5===0)
+		five[i]=mer[i]
+	end
+end
+
+puts"# divisible by 2 =#{two}"
+puts"# divisible by 3 =#{three}"
+puts"# divisible by 5 =#{five}"
