@@ -1,0 +1,15 @@
+Q6
+
+What is the purpose of application* files? * here refers to anything else that comes after the word "application".
+--------------------------------------------------------------------------
+
+any file come after word "applictaion" that means  itis a global organizer file , and this file will apply in all the program  
+
+
+
+
+
+
+
+
+
